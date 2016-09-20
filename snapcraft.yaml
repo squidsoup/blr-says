@@ -1,0 +1,13 @@
+name: thomir-says
+version: 0.0.1a
+summary: What does Thomi say?
+description: A simple test snap to verify that deltas work as expected.
+
+apps:
+  thomir-says:
+    command: thomir-says.py
+
+parts:
+  thomir-says:
+    plugin: python3
+    source: .

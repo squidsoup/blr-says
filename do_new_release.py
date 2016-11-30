@@ -7,7 +7,7 @@ import os.path
 import glob
 
 
-SNAPCRAFT = 'snapcraft-stg'
+SNAPCRAFT = 'snapcraft'
 
 
 def main():
@@ -25,7 +25,7 @@ def main():
         now = datetime.datetime.now()
         status = "Version released at %s with comment: %s" % (now, comment)
         here = os.path.dirname(__file__)
-        target_file = os.path.join(here, 'thomir-says.py')
+        target_file = os.path.join(here, 'blr-says.py')
 
         # Clean the old data:
         subprocess.check_call([SNAPCRAFT, 'clean'])

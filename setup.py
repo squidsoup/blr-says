@@ -12,8 +12,8 @@ VERSION = '0.1.1'
 
 
 setup(
-    name='thomir-says',
+    name='blr-says',
     version=VERSION,
-    scripts=['thomir-says.py'],
+    scripts=['blr-says.py'],
 )
 
